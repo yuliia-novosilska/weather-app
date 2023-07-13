@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(
+    89.9deg,
+    rgb(208, 230, 255) 0.1%,
+    rgb(255, 237, 237) 47.9%,
+    rgb(255, 255, 231) 100.2%
+  );
+}
+.container {
+  display: block;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.row {
+  padding: 20px 40px;
+}
+p {
+  font-family: "Ubuntu";
+  color: #363648;
+}
+
+.date {
+  font-family: "Ubuntu";
+  color: #95a8c7;
+}
+
+.title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #363648;
+  margin: 30px 0;
+}
+.city {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: left;
+  color: #363648;
+}
+.current-temp {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: right;
+  color: #363648;
+  margin: 30px 0 12px 0;
+  position: relative;
+  top: 0;
+}
+.celsius,
+.fah {
+  font-weight: light;
+  position: relative;
+  bottom: 30px;
+  cursor: pointer;
+}
+.condition {
+  font-family: "Ubuntu";
+  color: #363648;
+  text-align: left;
+}
+.main-icon {
+  font-size: 80px;
+  text-align: right;
+  padding: 10px 0;
+}
+.extra-info {
+  text-align: center;
+  background-color: rgb(208, 230, 255);
+  padding: 10px;
+  border-radius: 6px;
+}
+.next-week {
+  font-family: "Ubuntu";
+  color: #95a8c7;
+  margin: 0 0 8px 40px;
+}
+.card {
+  font-family: "Ubuntu";
+  color: #363648;
+  text-align: center;
+}
+.card-icon {
+  font-size: 36px;
+}
+.identity {
+  padding: 30px 0 0 0;
+  font-size: 14px;
+  text-align: center;
+  color: #95a8c7;
+}
